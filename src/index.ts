@@ -1,13 +1,16 @@
-// src/index.ts
-import express from 'express';
+// const express = require('express');
+// const serverless = require('serverless-http');
+// const app = express();
+// const router = express.Router();
 
-const app = express();
-const port = 3000;
+// router.get('/', (req, res) => {
+//   res.send('App is running..');
+// });
 
-app.get('/', (req, res) => {
-  res.send('Hello, TypeScript with Express!');
-});
+// app.use('/.netlify/src/index', router);
+// module.exports.handler = serverless(app);
 
-app.listen(port, () => {
-  console.log(`Server is running on http://localhost:${port}`);
-});
+// //const port = 8080;
+// //app.listen(process.env.PORT || port, () => {	
+// //	console.log(`Listening on port ${port}`);
+// //});
